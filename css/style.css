@@ -1,0 +1,1400 @@
+/* ============================ Bootstrap ============================ */
+@import url("bootstrap.min.css");
+
+/* ============================ Font Awesome ============================ */
+@import url("all.min.css");
+
+/* ============================ Owl Carousel ============================ */
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.css");
+@import url("owl.theme.default.min.css");
+
+
+
+/* ===========================================================================
+                                Start Banner
+==============================================================================*/
+.banner-img{
+    height: 100vh;
+    background-image: url("../assets/images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    position: relative;
+}
+
+.banner-title{
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: Dosis;
+    line-height: 1;
+}
+
+
+.banner-title span{
+    display: inline-block;
+}
+
+.banner-title :nth-child(2){
+    margin-bottom: 25px;
+}
+
+.banner-content{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+}
+
+.banner-content a{
+    margin: 5px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.banner-btn{
+    color: white;
+    background-color: #56b539;
+    font-family: Dosis;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    border-radius: 5%;
+}
+
+.banner-btn:hover{
+    color: #56b539;
+    background-color: white;
+}
+
+/* ===========================================================================
+                                End Banner
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                                Start NavBar
+==============================================================================*/
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo-title{
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.nav-item a{
+    font-family: Dosis;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.main-navigation {
+    box-shadow: 0 12px 12px -12px rgba(109, 107, 107, 0.2);
+    z-index: 1000;
+}
+
+
+/* ===========================================================================
+                                End NavBar
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                                Start About
+==============================================================================*/
+.about{
+    width: auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+.about-title{
+    font-size: 60px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hr-theme-line {
+    display: flex;
+}
+    
+.hr-line {
+    width: 15%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.about-subtitle{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.main-subtitle {
+    display: block;
+}
+
+.inner-subtitle{
+    color: #56b539;
+}
+
+.about-video{
+    margin-top: 50px;
+}
+
+.about-video video{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* ===========================================================================
+                                End About
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                                Start Award
+==============================================================================*/
+.award{
+    margin: 100px 0;
+    background-image: url("../assets/images/award.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.award-bg-black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    padding: 60px 0;
+}
+
+.award-title{
+    color: white;
+    font-size: 60px;
+    font-family: Dosis;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.owl-carousel-slider{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.owl-carousel .item{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    color: white;
+    font-size: 40px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: inherit;
+}
+
+
+/* ===========================================================================
+                                End Award
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Partners & Certifications
+==============================================================================*/
+.partners-certifications{
+    padding-top: 70px;
+}
+
+.partners-certifications-title{
+    margin-bottom: 90px;
+    font-size: 60px;
+    color: black;
+    font-family: Dosis;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.partners-certifications-content div img{
+    width: auto;
+    height: 55px;
+}
+
+.partenrs-certification-main-content{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.partners-certifications-content{
+    margin-bottom: 100px;
+}
+
+/* ===========================================================================
+                        End Partners & Certifications
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Why Work With Us
+==============================================================================*/
+.why-work-with-us{
+    margin-top: 50px;
+    background-image: url("../assets/images/work-with-us.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.why-work-with-us-black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    padding: 60px 0;
+}
+
+.why-work-with-us-title{
+    font-size: 60px;
+    font-family: Dosis;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.why-work-with-us-subtitle{
+    font-size: 30px;
+    font-family: Dosis;
+    color: #56b539;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.why-work-with-us-main-content{
+    padding: 10px;
+    background-color: rgb(114, 111, 111);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-icon{
+    color: white;
+    text-align: center;
+}
+
+.top-icon i{
+    background-color: #56b539;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.why-work-with-us-main-content h3{
+    font-size: 30px;
+    font-family: Dosis;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.why-work-with-us-main-content span{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ===========================================================================
+                        End Why Work With Us
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Our Services
+==============================================================================*/
+.our-services{
+    padding: 100px 0;
+}
+
+.our-services-title{
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.our-services-content-title{
+    font-family: Dosis;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -50px;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.our-services-content{
+    display: table;
+}
+
+.our-servicesBox{
+    float: left;
+    position: relative;
+    margin-top: 50px;
+}
+
+.our-services-content-description{
+    margin-left: 100px;
+    color: #f58220;
+}
+
+.our-services-icon{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.our-services-icon i{
+    background-color: #56b539;
+    color: white;
+    padding: 15px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.our-services-icon i:hover{
+    background-color: rgb(114, 111, 111);
+    color: white;
+}
+
+
+/* ===========================================================================
+                        End Our Services
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Our Team
+==============================================================================*/
+.our-team{
+    padding: 100px 0;
+}
+
+.our-team-title{
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.our-team-content{
+    margin-top: 50px;
+}
+
+.our-team-main-content {
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team-main-content:hover {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.our-team-main-content .pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team-main-content .pic:before,
+.our-team-main-content .pic:after {
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(38, 37, 37, 0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+
+.our-team-main-content .pic:after {
+    background: rgba(8, 75, 77, 0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+
+.our-team-main-content:hover .pic:before {
+    top: 0;
+}
+
+.our-team-main-content:hover .pic:after {
+    bottom: 0;
+}
+
+.our-team-main-content .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team-main-content .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+}
+
+.our-team-main-content:hover .social {
+    opacity: 1;
+}
+
+.our-team-main-content .social li {
+    display: inline-block;
+}
+
+.our-team-main-content .social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.our-team-main-content .social li a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:#56b539;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team-main-content .social li a:hover:after {
+    transform: rotate(270deg);
+}
+
+.our-team-main-content .team-content {
+    padding: 20px;
+}
+
+.our-team-main-content .title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.our-team-main-content .post {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+
+
+
+/* ===========================================================================
+                        End Our Team
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Portfolio
+==============================================================================*/
+.portfolio{
+    padding: 100px 0;
+}
+
+.portfolio-title{
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.portfolio-content {
+    margin-top: 100px;
+}
+
+.portfolio-main-content{
+    margin-top: 10px;
+}
+
+.portfolio-main-content img{
+    height: 100px;
+    width: 100%;
+}
+
+
+/* ===========================================================================
+                        End Portfolio
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Animated Counter
+==============================================================================*/
+.animated-counter-title {
+    margin-top: 50px;
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.animated-counter-hr-theme-line {
+    display: flex;
+}
+
+.animated-counter-hr-line {
+    width: 45%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.animated-counter-hr-icon {
+    position: relative;
+    top: 3px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.animated-couter-content{
+    margin: 50px 0;
+}
+
+#counter{
+    text-align: center;
+}
+
+#counter span{
+    font-size: 100px;
+    font-family: Dosis;
+    color: #56b539;
+}
+
+#counter p{
+    font-size: 30px;
+    font-family: Dosis;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* ===========================================================================
+                        End Animated Counter
+==============================================================================*/
+
+/* ===========================================================================
+                        Start Testimonial
+==============================================================================*/
+.testimonial{
+    padding: 100px 0;
+    position: relative;
+}
+
+.testimonial-title{
+    margin-top: 50px;
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.testimonial-content{
+    position: relative;
+}
+
+.testimonial-main-content {
+    margin-top: 50px;
+    background-color:#f2f2f2;
+    text-align: left;
+}
+
+.testimonial-main-content p {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+}
+
+.testimonial-main-content p a {
+    float: left;
+    margin-right: 20px;
+}
+
+.testimonial-main-content.arrow-bottom::after {
+    content: " ";
+    position: absolute;
+    left: 60px;
+    bottom: 16px;
+    border-top: 25px solid #f2f2f2;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+}
+
+.testimonial-person{
+    position: relative;
+}
+
+.testimonial-person i{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(119, 114, 114);
+}
+
+.testimonial-person-name{
+    margin-left: 50px;
+    color: #56b539;
+    text-transform: uppercase;
+    font-family: Dosis;
+    font-size: 20px;
+}
+
+.testimonial-person-established {
+    margin-left: 10px;
+    color: #4a4b4a;
+    text-transform: uppercase;
+    font-family: Dosis;
+    font-size: 15px;
+}
+
+
+/* ===========================================================================
+                        End Testimonial
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Get In Touch
+==============================================================================*/
+.get-in-touch{
+    padding: 50px 0;
+    background-color: #f0f2f0;
+}
+
+.get-in-touch-title{
+    margin-top: 50px;
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.get-in-touch-btn-content{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.get-in-touch a{
+    text-decoration: none;
+}
+
+.get-in-touch-btn{
+    color: white;
+    background-color: #56b539;
+    font-family: Dosis;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    border-radius: 5%;
+}
+
+.get-in-touch-btn:hover {
+    background-color: #726f6f;
+}
+
+
+
+/* ===========================================================================
+                        End Get In Touch
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Trusted Comapany
+==============================================================================*/
+.trusted-company{
+    background-attachment: fixed;
+    background-image: url("../assets/images/company.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+}
+
+.trusted-company-black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 650px;
+    width: 100%;
+}
+
+.trusted-company-title{
+    padding: 100px 0;
+    font-family: Dosis;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.owl-carousel .company-logo-item {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+/* ===========================================================================
+                        End Trusted Comapany
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Contact Form
+==============================================================================*/
+.contact-form {
+    padding-top: 100px;
+}
+
+.contact-form-title {
+    font-family: Dosis;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.contact-form-content{
+    margin: 80px 0;
+}
+
+.contact-form-content form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form-content form div{
+    position: relative;
+}
+
+.contact-form-content form div i{
+    position: absolute;
+    display: block;
+    height: 2.37rem;
+    width: 2.37rem;
+    line-height: 2.37rem;
+}
+
+.contact-form-content form div input,
+.contact-form-content form div textarea {
+    padding-left: 2.37rem;
+    background-color: #f0f2f0;
+}
+
+.contact-form-btn {
+    color: white;
+    background-color: #56b539;
+    font-family: Dosis;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    border-radius: 5%;
+    border: none;
+}
+
+.contact-form-btn:hover {
+    background-color: #726f6f;
+}
+
+
+/* ===========================================================================
+                        End Contact Form
+==============================================================================*/
+
+
+
+/* ===========================================================================
+                        Start Contact Us
+=============================================================================*/
+.contact-us {
+    background-image: url("../assets/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.contact-us-black-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    padding: 60px 0;
+}
+
+.contact-us-title {
+    font-size: 60px;
+    font-family: Dosis;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-us-main-content {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-us-main-content span {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.contact-us-top-icon {
+    color: black;
+    text-align: center;
+}
+
+.contact-us-top-icon i {
+    background-color: white;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+
+/* ===========================================================================
+                        End Contact Us
+==============================================================================*/
+
+
+/* ===========================================================================
+                        Start Footer
+==============================================================================*/
+.devit-footer{
+    background-color: #000000;
+    color: white;
+    font: Dosis;
+    text-transform: uppercase;
+    padding-top: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer-title{
+    padding: 20px 0;
+}
+
+.footer-item{
+    list-style: none;  
+    padding-left: 0;
+}
+
+.footer-item li{
+    display: block;
+}
+
+.footer-item li a{
+    text-decoration: none;
+}
+
+.footer-content-hr-line{
+    width: 99%;
+}
+
+.copyright-section{
+    padding-bottom: 10px;
+}
+
+/* ===========================================================================
+                        End Footer
+==============================================================================*/
+
+
+/* ======================================================================================================
+                        Start Blog Page
+=========================================================================================================*/
+.all-page-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.blog{
+    padding-top: 100px;
+}
+
+.blog-title {
+    padding: 50px 0;
+    font-size: 60px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.large-div {
+    height: 650px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.large-div-blk-overlay {
+    height: 650px;
+    background-color: rgba(8, 8, 8, 0.7);
+}
+
+.small-div {
+    height: 320px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#id-1 {
+    background-image: url("../assets/images/b-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#id-2 {
+    background-image: url("../assets/images/b-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#id-3 {
+    background-image: url("../assets/images/b-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#id-4 {
+    background-image: url("../assets/images/b-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#id-5 {
+    background-image: url("../assets/images/b-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blog-area {
+    margin-bottom: 100px;
+}
+
+.blog-read-more-btn {
+    background-color: #56b539;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 34px;
+    float: right;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.blog-read-more-btn:hover {
+    background-color: #726f6f;
+    color: white;
+}
+
+.card-body h5 a {
+    float: right;
+    text-decoration: none;
+}
+
+
+
+/* ======================================================================================================
+                        Start Login Page
+=========================================================================================================*/
+.login {
+    padding-top: 100px;
+}
+
+.login form{
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login form button{
+    color: white;
+    background-color: #56b539;
+    font-family: Dosis;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    border-radius: 5%;
+    border: none;
+}
+
+.login form button:hover {
+    background-color: #726f6f;
+}
+
+.login-title{
+    font-size: 60px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.register-call {
+    font-size: 20px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* ======================================================================================================
+                        Start Register Page
+=========================================================================================================*/
+.register{
+    padding-top: 100px;
+}
+
+.register form {
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register form button {
+    color: white;
+    background-color: #56b539;
+    font-family: Dosis;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    border-radius: 5%;
+    border: none;
+}
+
+.register form button:hover {
+    background-color: #726f6f;
+}
+
+.register-title{
+    font-size: 60px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-call{
+    font-size: 20px;
+    font-family: Dosis;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* ===========================================================================
+                        Start Responsive Media Queries  
+==============================================================================*/
+
+@media (max-width: 575.98px) {
+    .banner-title {
+        font-size: 55px;
+    }
+    .banner-title :nth-child(2) {
+        margin-bottom: 15px;
+    }
+    .banner-content {
+        top: 25%;
+    }
+    .banner-content a {
+        display: inline-block;
+    }
+    span.banner-btn {
+        font-size: 25px;
+        padding: 14px 40px;
+    }
+    .hr-line {
+        width: 35%;
+    }
+    .about-subtitle {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .about-video video {
+        width: 300px;
+    }
+    .owl-carousel-slider {
+        margin-top: 50px;
+    }
+    .owl-carousel .item img{
+        height: 280px;
+    }
+    .partners-certifications-title {
+        font-size: 40px;
+    }
+    .partners-certifications-content div img {
+        margin-top: 10px;
+        width: 55px;
+        height: 55px;
+    }
+    .portfolio-title {
+        font-size: 40px;
+    }
+    .animated-counter-title {
+        font-size: 40px;
+    }
+    .animated-counter-hr-line {
+        width: 40%;
+        margin: 15px;
+    }
+    #counter span {
+        font-size: 70px;
+    }
+    #counter p {
+        font-size: 20px;
+    }
+    .trusted-company-title {
+        padding: 70px 0;
+        font-size: 40px;
+    }
+    .owl-carousel .company-logo-item {
+        height: 150px;
+        width: 100%;
+        padding: 0 40px;
+    }
+    .contact-form-content form {
+        width: 70%;
+    }
+    .contact-form-btn {
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width: 767.97px) and (min-width: 575.99px) {
+    .banner-title {
+        font-size: 70px;
+    }
+    .banner-title :nth-child(2) {
+        margin-bottom: 20px;
+    }
+    .banner-content {
+        top: 20%;
+    }
+    span.banner-btn {
+        font-size: 20px;
+        padding: 14px 40px;
+    }
+    .hr-line {
+        width: 25%;
+    }
+    .about-subtitle {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .about-video video {
+        width: 490px;
+    }
+    .owl-carousel-slider {
+        margin-top: 50px;
+    }
+    .owl-carousel .item img{
+        height: 280px;
+    }
+    .partners-certifications-title {
+        margin-bottom: 60px;
+        font-size: 50px;
+    }
+    .partners-certifications-content div img {
+        width: auto;
+        height: 55px;
+    }
+    .portfolio-title {
+        font-size: 50px;
+    }
+    .trusted-company-title {
+        padding: 70px 10px;
+        font-size: 50px;
+    }
+    .owl-carousel .company-logo-item {
+        height: 180px;
+        width: 100%;
+    }
+    .contact-form-content form {
+        width: 70%;
+    }
+    .contact-form-btn {
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width: 991.97px) and (min-width: 767.98px) {
+    .banner-title {
+        font-size: 75px;
+    }
+    .banner-title :nth-child(2) {
+        margin-bottom: 15px;
+    }
+    .banner-content {
+        top: 25%;
+    }
+    span.banner-btn {
+        font-size: 20px;
+        padding: 14px 40px;
+    }
+    .about-video video {
+        width: 700px;
+    }
+    .our-services-content-title {
+        font-size: 25px;
+    }
+    .contact-form-content form {
+        width: 70%;
+    }
+    .contact-form-btn {
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) and (min-width: 991.97px) {
+    .about-video video {
+        width: 900px;
+    }
+    .our-services-content-title {
+        font-size: 20px;
+    }
+    .contact-form-content form {
+        width: 70%;
+    }
+    .contact-form-btn {
+        font-size: 18px;
+        padding: 10px 30px;
+        border-radius: 5%;
+    }
+}
+
+@media (max-width: 1399.98px) {
+
+}
+
+
+/* ===========================================================================
+                        End Responsive Media Queries  
+==============================================================================*/
