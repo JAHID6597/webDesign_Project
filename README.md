@@ -1,2 +1,2 @@
 # webDesign_Project
- Simple Web Design Project. #DEV IT
+ Simple Web Design Project. # DEV IT
