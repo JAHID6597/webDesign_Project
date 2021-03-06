@@ -1,2 +1,3 @@
-# webDesign_Project
- Simple Web Design Project.
+# DEV IT
+
+This is a simple Web Design Project.
